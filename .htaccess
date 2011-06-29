@@ -1,0 +1,31 @@
+# private directories
+IndexIgnore private temp
+
+# include charset
+AddType "text/html; charset=utf-8" .html
+AddType "text/css; charset=utf-8" .css
+
+# Add-ons
+AddType application/x-xpinstall	.xpi
+
+# Video
+AddType video/ogg	.ogg .ogv
+AddType video/mp4	.mp4
+AddType video/webm	.webm
+
+# SVG
+AddType image/svg+xml	.svg .svgz
+AddEncoding x-gzip	.svgz
+
+# Web Fonts
+AddType application/vnd.ms-fontobject	.eot
+AddType font/truetype	.ttf
+AddType font/opentype	.otf
+AddType font/woff		.woff
+
+# Other
+AddType image/vnd.microsoft.icon	.ico
+AddType image/webp					.webp
+AddType text/cache-manifest			.manifest
+AddType text/x-component			.htc
+AddType application/x-chrome-extension	.crx
